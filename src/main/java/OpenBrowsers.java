@@ -4,24 +4,26 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
     public class OpenBrowsers {
+
+
         public static WebDriver openBrowser(String browser) {
 
             WebDriver driver;
             if(browser.equals("firefox")) {
                 //Setting webdriver.gecko.driver property
-                System.setProperty("webdriver.gecko.driver", "C:\\Users\\Public\\Desktop\\Selenium_task\\src\\main\\resources\\geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "C:\\Users\\firas\\Desktop\\Selenium_task\\src\\main\\resources\\geckodriver.exe");
 
                 //Instantiating driver object and launching browser
                 driver = new FirefoxDriver();
             }else if(browser.equals("chrome")) {
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\Public\\Desktop\\Selenium_task\\src\\main\\resources\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\firas\\Desktop\\Selenium_task\\src\\main\\resources\\chromedriver.exe");
 
                 //Instantiating driver object
                 driver = new ChromeDriver();
             }else if(browser.equals("edge")) {
                 System.setProperty(
                         "webdriver.edge.driver",
-                        "C:\\Users\\Public\\Desktop\\Selenium_task\\src\\main\\resources\\msedgedriver.exe");
+                        "C:\\Users\\firas\\Desktop\\Selenium_task\\src\\main\\resources\\msedgedriver.exe");
                 // Instantiate a ChromeDriver class.
                 driver = new EdgeDriver();
             }else {
@@ -34,13 +36,16 @@ import org.openqa.selenium.firefox.FirefoxDriver;
         public static void main(String[] args) throws InterruptedException {
             String[] browsers = {"firefox","chrome","edge"};
             for(int i =0;i<browsers.length;i++) {
+
                 WebDriver driver = OpenBrowsers.openBrowser(browsers[i]);
+
                 driver.get("https://www.google.com/");
                 driver.manage().window().maximize();
+
                 driver.get("https://www.bing.com//");
+
                 driver.navigate().back();
                 driver.navigate().forward();
-
 
 
                 Thread.sleep(10000);
