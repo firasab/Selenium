@@ -1,0 +1,45 @@
+
+<suite name="Suite" >
+
+    <test name="Test1" >
+        <parameter name="searchtitlle" value="Selenium"></parameter>
+        <parameter name="expectedTittle" value="Selenium"></parameter>
+
+        <classes>
+            <class name="pingTestWithParams"/>
+        </classes>
+    </test>
+
+    <test name="Test2" >
+        <parameter name="searchtitlle" value="Cypress"></parameter>
+        <parameter name="expectedTittle" value="Cypress"></parameter>
+
+        <classes>
+            <class name="pingTestWithParams"/>
+        </classes>
+    </test>
+
+    <test name="Test3" >
+        <parameter name="searchtitlle" value="QTP"></parameter>
+        <parameter name="expectedTittle" value="QTP"></parameter>
+
+        <classes>
+            <class name="pingTestWithParams"/>
+        </classes>
+    </test>
+
+    <test name="Test4" >
+        <parameter name="searchtitlle" value="Appium"></parameter>
+        <parameter name="expectedTittle" value="Appium"></parameter>
+
+        <classes>
+            <class name="pingTestWithParams"/>
+        </classes>
+    </test>
+
+
+
+
+
+
+</suite>

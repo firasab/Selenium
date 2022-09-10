@@ -1,7 +1,7 @@
 
-<suite name="Suite">
+<suite name="Suite" >
 
-    <test name="Test1">
+    <test name="Test1" >
         <parameter name="browser" value="firefox"></parameter>
 
         <classes>

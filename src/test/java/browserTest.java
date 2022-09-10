@@ -9,7 +9,8 @@ public class browserTest {
     @Parameters({"browser"})
     @Test
     public void testBrowser(String browser) throws InterruptedException {
-        WebDriver driver = OpenBrowsers.openBrowser(browser);
+
+        WebDriver driver = OpenBrowserByPara.openBrowser(browser);
 
             driver.get("https://www.google.com/");
             driver.manage().window().maximize();

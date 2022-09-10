@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971da4bc-4085-4db5-a9b7-1113d17e3899" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/OpenBrowserByPara.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browserTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pingTestWithParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pingTestWithParams.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OpenBrowsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OpenBrowsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/browserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/browserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browserTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +52,7 @@
       <recent name="C:\Users\firas\Desktop\Selenium_task\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/firas/Desktop/Selenium_task/src/test/java/browserTest.xml">
-    <configuration name="OpenBrowsers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OpenBrowsers" />
-      <module name="Selenium_task" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/Users/firas/Desktop/Selenium_task/src/test/java/pingTestWithParams.xml">
     <configuration name="C:/Users/firas/Desktop/Selenium_task/src/test/java/browserTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_task" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/browserTest.xml" />
@@ -69,10 +63,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/firas/Desktop/Selenium_task/src/test/java/pingTestWithParams.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_task" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/pingTestWithParams.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pingTestWithParams" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="pingTestWithParams" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pingTestWithParams.testBingWithParams" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="pingTestWithParams" />
+      <option name="METHOD_NAME" value="testBingWithParams" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pingTest.testBing" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="pingTest" />
+      <option name="METHOD_NAME" value="testBing" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/firas/Desktop/Selenium_task/src/test/java/pingTestWithParams.xml" />
+        <item itemvalue="TestNG.pingTestWithParams.testBingWithParams" />
+        <item itemvalue="TestNG.pingTestWithParams" />
+        <item itemvalue="TestNG.pingTest.testBing" />
         <item itemvalue="TestNG.C:/Users/firas/Desktop/Selenium_task/src/test/java/browserTest.xml" />
-        <item itemvalue="Application.OpenBrowsers" />
       </list>
     </recent_temporary>
   </component>
